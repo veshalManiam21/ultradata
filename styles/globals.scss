@@ -2,39 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './reactModal.css';
+
+$bgColor: white;
+$sm: 640px;
+$md: 740px;
+$lg: 1024px;
+$xl: 1280px;
+
 @layer base {
   html,
   body {
-    @apply font-medium bg-white text-black;
+    @apply font-medium text-black;
+    background-color: $bgColor;
   }
 }
 
 @layer components {
   .container {
-    @apply w-full p-4 mx-auto;
+    @apply mx-auto w-full p-4;
   }
 
   @screen sm {
     .container {
-      max-width: 640px;
+      max-width: $sm;
     }
   }
 
   @screen md {
     .container {
-      max-width: 768px;
+      max-width: $md;
     }
   }
 
   @screen lg {
     .container {
-      max-width: 1024px;
+      max-width: $lg;
     }
   }
 
   @screen xl {
     .container {
-      max-width: 1280px;
+      max-width: $xl;
     }
   }
 }

@@ -1,10 +1,8 @@
 import React from "react";
 import { Header } from "@/components/Header/Header";
-import { Footer } from "@/components/Footer/Footer";
+import { Footer } from "@/components//Footer/Footer";
 
-type BaseLayoutProps = {
-  children: React.ReactNode;
-};
+type BaseLayoutProps = {};
 
 export const BaseLayout: React.FC<BaseLayoutProps> = (props) => {
   return (

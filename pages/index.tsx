@@ -8,7 +8,7 @@ type IndexPageProps = {};
 const IndexPage: NextPage<IndexPageProps> = () => {
   const login = () => {};
 
-  return <main className="">test</main>;
+  return <main className="">Test</main>;
 };
 
 export const getStaticProps: GetStaticProps<IndexPageProps> = async () => {
