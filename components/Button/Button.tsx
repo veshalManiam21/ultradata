@@ -1,16 +1,16 @@
-import React from "react";
-import { LoadingSpinner } from "@/components/LoadingSpinner/LoadingSpinner";
-import { Link } from "@/components/Link/Link";
+import React from 'react';
+import { LoadingSpinner } from '@/components/LoadingSpinner/LoadingSpinner';
+import { Link } from '@/components/Link/Link';
 
-import type { MergeExclusive } from "type-fest";
+import type { MergeExclusive } from 'type-fest';
 
 type Anchor = Omit<
   React.ComponentPropsWithoutRef<typeof Link>,
-  "className" | "children"
+  'className' | 'children'
 >;
 type ButtonProp = Omit<
-  React.ComponentPropsWithoutRef<"button">,
-  "className" | "children"
+  React.ComponentPropsWithoutRef<'button'>,
+  'className' | 'children'
 >;
 
 export type ButtonProps = MergeExclusive<Anchor, ButtonProp> & {
@@ -27,11 +27,11 @@ export type ButtonProps = MergeExclusive<Anchor, ButtonProp> & {
 
 export const Button = ({
   invertedColor,
-  className = "",
+  className = '',
   children,
-  paddingClassName = "px-4 py-2",
-  borderRadiusClassName = "rounded-lg",
-  textClassName = "text-sm",
+  paddingClassName = 'px-4 py-2',
+  borderRadiusClassName = 'rounded-lg',
+  textClassName = 'text-sm',
   customColorClassName,
   isLoading,
   disabled,
@@ -42,8 +42,8 @@ export const Button = ({
     customColorClassName
       ? customColorClassName
       : invertedColor
-      ? "text-white rounded-3xl"
-      : "bg-white text-black-full rounded-3xl"
+      ? 'text-white rounded-3xl'
+      : 'bg-white text-black-full rounded-3xl'
   }`;
 
   return isWithHref(otherProps) ? (
@@ -59,8 +59,8 @@ export const Button = ({
       {children}
       {isLoading ? (
         <LoadingSpinner
-          className={`w-5 h-5 ml-2 ${
-            invertedColor ? "text-white" : "text-black"
+          className={`ml-2 h-5 w-5 ${
+            invertedColor ? 'text-white' : 'text-black'
           }`}
         />
       ) : null}

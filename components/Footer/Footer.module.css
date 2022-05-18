@@ -1,0 +1,4 @@
+.footerContainer {
+  border-bottom-right-radius: 3rem;
+  @apply bg-red-cc0000;
+}

@@ -1,4 +1,4 @@
-import { NAV_FIRST_ROW, NAV_SECOND_ROW } from '@/constants/nav';
+import { NAV_FIRST_ROW, NAV_SECOND_ROW } from '@/constants/constants';
 import React from 'react';
 import { Link } from '@/components/Link/Link';
 

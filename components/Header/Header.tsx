@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import { Link } from '@/components/Link/Link';
-import { NAV_FIRST_ROW, NAV_SECOND_ROW } from '@/constants/nav';
+import { NAV_FIRST_ROW, NAV_SECOND_ROW } from '@/constants/constants';
 import IconMenu from '@/assets/svg/icon_hamburger.svg';
 import { useModal } from '@/providers/ModalProvider';
 import { SideMenu } from './SideMenu';
