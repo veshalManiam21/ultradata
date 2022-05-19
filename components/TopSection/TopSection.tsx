@@ -30,7 +30,6 @@ export const TopSection: React.FC<TopSectionProps> = ({
       buttonText="Apply Now"
       href="#"
       containerClassName="space-y-4 lg:space-y-8 justify-center"
-      buttonContainerClassName="w-max"
     />
   );
 

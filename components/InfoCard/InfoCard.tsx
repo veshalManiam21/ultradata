@@ -13,13 +13,13 @@ export type InfoCardProps = {
 };
 
 export const InfoCard: React.FC<InfoCardProps> = ({
-  containerClassName = 'space-y-4',
+  containerClassName = 'space-y-4 flex flex-col items-center',
   content,
   onClick,
   href,
   isButtonInverted = false,
   buttonText,
-  buttonContainerClassName,
+  buttonContainerClassName = 'w-auto md:w-max text-center rounded-lg',
 }) => {
   return (
     <div className={containerClassName}>

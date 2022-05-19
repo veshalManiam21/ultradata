@@ -31,7 +31,7 @@ export const Header: React.FC<HeaderProps> = (props) => {
   };
 
   return (
-    <header className="flex h-auto justify-between shadow-md md:z-50">
+    <header className="sticky top-0 z-50 flex h-auto justify-between bg-white shadow-md">
       <div className="flex-0 flex flex-row px-4 py-2">
         <div className="flex flex-row items-center justify-center">
           <Link href="/" className="flex items-center">

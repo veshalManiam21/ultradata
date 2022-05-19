@@ -37,13 +37,13 @@ export const Button = ({
   disabled,
   ...otherProps
 }: ButtonProps) => {
-  const btnClassName = `hover:no-underline font-semibold border flex items-center justify-center
+  const btnClassName = `hover:no-underline font-normal border flex items-center justify-center
     ${textClassName} ${borderRadiusClassName} ${paddingClassName} ${className} ${
     customColorClassName
       ? customColorClassName
       : invertedColor
-      ? 'text-white rounded-3xl bg-red-cc0000 text-white'
-      : 'border border-red-cc0000 text-red-cc0000 rounded-3xl'
+      ? 'text-white rounded-3xl bg-red-cc0000 text-white hover:border-red-cc0000 hover:text-red-cc0000'
+      : 'border border-red-cc0000 text-red-cc0000 rounded-3xl hover:bg-red-cc0000 hover:text-white'
   }`;
 
   return isWithHref(otherProps) ? (

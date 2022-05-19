@@ -6,8 +6,8 @@ export type TabsProps = {};
 
 export const Tabs: React.FC<TabsProps> = (props) => {
   return (
-    <div className="border-t border-b border-red-cc0000">
-      <div className="container flex flex-col justify-between space-y-4 md:flex-row  md:space-y-0">
+    <div className="border-t border-b border-red-cc0000 ">
+      <div className="container flex flex-col justify-between space-y-4   md:flex-row md:space-y-0">
         {TABS_DETAILS.map((tab, idx) => (
           <Link
             key={idx}

@@ -25,7 +25,10 @@ module.exports = {
         xxs: '0.625rem',
       },
       minWidth: {
-        xs: '280',
+        xs: '280px',
+      },
+      minHeight: {
+        xs: '280px',
       },
     },
   },
