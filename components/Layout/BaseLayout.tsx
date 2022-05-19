@@ -1,15 +1,15 @@
-import React from "react";
-import { Header } from "@/components/Header/Header";
-import { Footer } from "@/components//Footer/Footer";
+import React from 'react';
+import { Header } from '@/components/Header/Header';
+import { Footer } from '@/components//Footer/Footer';
 
 type BaseLayoutProps = {};
 
 export const BaseLayout: React.FC<BaseLayoutProps> = (props) => {
   return (
     <>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex min-h-screen flex-col">
         <Header />
-        <div className="container flex-1 p-0 md:p-4">{props.children}</div>
+        <div className="flex-1 p-0 md:p-4">{props.children}</div>
         <Footer />
       </div>
     </>

@@ -30,7 +30,7 @@ export const Button = ({
   className = '',
   children,
   paddingClassName = 'px-4 py-2',
-  borderRadiusClassName = 'rounded-lg',
+  borderRadiusClassName = 'rounded-md',
   textClassName = 'text-sm',
   customColorClassName,
   isLoading,
@@ -42,8 +42,8 @@ export const Button = ({
     customColorClassName
       ? customColorClassName
       : invertedColor
-      ? 'text-white rounded-3xl'
-      : 'bg-white text-black-full rounded-3xl'
+      ? 'text-white rounded-3xl bg-red-cc0000 text-white'
+      : 'border border-red-cc0000 text-red-cc0000 rounded-3xl'
   }`;
 
   return isWithHref(otherProps) ? (
