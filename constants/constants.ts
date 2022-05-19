@@ -14,6 +14,11 @@ type FooterPathProp = {
   name: string;
 };
 
+type SiteMapProp = {
+  title: string;
+  children: FooterPathProp[];
+};
+
 import IconLock from '@/assets/svg/icon_lock.svg';
 
 import IconFB from '@/assets/svg/icon_fb.svg';
@@ -103,6 +108,119 @@ export const TABS_DETAILS: RowProp[] = [
     link: '#',
     name: 'Home Loans',
     icon: IconHome,
+  },
+  {
+    link: '#',
+    name: 'Calculators',
+    icon: IconCalculator,
+  },
+  {
+    link: '#',
+    name: 'Rates & Fees',
+    icon: IconGraph,
+  },
+  {
+    link: '#',
+    name: 'Savings',
+    icon: IconSavings,
+  },
+  {
+    link: '#',
+    name: 'Insurance',
+    icon: IconInsurance,
+  },
+  {
+    link: '#',
+    name: 'Contact Us',
+    icon: IconCall,
+  },
+];
+
+export const SITE_MAPS: SiteMapProp[] = [
+  {
+    title: 'Products',
+    children: [
+      {
+        name: 'Sit Amet 1',
+        link: '#',
+      },
+      {
+        name: 'Sit Amet 2',
+        link: '#',
+      },
+      {
+        name: 'Sit Amet 3',
+        link: '#',
+      },
+    ],
+  },
+  {
+    title: 'Tools & Calculators',
+    children: [
+      {
+        name: 'Tools 1',
+        link: '#',
+      },
+      {
+        name: 'Tools 2',
+        link: '#',
+      },
+      {
+        name: 'Tools 3',
+        link: '#',
+      },
+    ],
+  },
+  {
+    title: 'Legal Stuff',
+    children: [
+      {
+        name: 'Legal 1',
+        link: '#',
+      },
+      {
+        name: 'Legal 2',
+        link: '#',
+      },
+      {
+        name: 'Legal 3',
+        link: '#',
+      },
+    ],
+  },
+  {
+    title: 'Useful Links',
+    children: [
+      {
+        name: 'Link 1',
+        link: '#',
+      },
+      {
+        name: 'Link 2',
+        link: '#',
+      },
+      {
+        name: 'Link 3',
+        link: '#',
+      },
+      {
+        name: 'Link 4',
+        link: '#',
+      },
+    ],
+  },
+];
+
+export const SIDE_NAV: RowProp[] = [
+  {
+    link: '#',
+    name: 'Apply online',
+    icon: IconApply,
+  },
+  {
+    link: '#',
+    name: 'Locate Us',
+    icon: IconLocate,
   },
   {
     link: '#',

@@ -30,6 +30,9 @@ module.exports = {
       minHeight: {
         xs: '280px',
       },
+      screens: {
+        xs: '375px',
+      },
     },
   },
   variants: {

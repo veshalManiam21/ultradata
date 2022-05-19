@@ -1,0 +1,17 @@
+.dot {
+  border: solid #cc0000 1px !important;
+}
+
+.dot.selected {
+  background: #cc0000 !important;
+}
+
+.control-dots {
+  position: relative !important;
+}
+
+.carousel {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}

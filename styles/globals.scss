@@ -3,18 +3,14 @@
 @tailwind utilities;
 
 @import './reactModal.css';
-
-$bgColor: white;
-$sm: 640px;
-$md: 740px;
-$lg: 1024px;
-$xl: 1280px;
+@import 'react-responsive-carousel/lib/styles/carousel.css';
+@import './carousel.scss';
 
 @layer base {
   html,
   body {
     @apply font-medium text-black;
-    background-color: $bgColor;
+    background-color: 'white';
   }
 }
 
@@ -25,28 +21,31 @@ $xl: 1280px;
 
   @screen sm {
     .container {
-      max-width: $sm;
+      max-width: 640px;
     }
   }
 
   @screen md {
     .container {
-      max-width: $md;
+      max-width: 740px;
     }
   }
 
   @screen lg {
     .container {
-      max-width: $lg;
+      max-width: 1024px;
     }
   }
 
-  @screen xl {
+  @screen 2xl {
     .container {
-      max-width: $xl;
+      max-width: 1280px;
     }
   }
 }
 
 @layer utilities {
+  .dot {
+    border: solid 1px #cc0000 !important;
+  }
 }

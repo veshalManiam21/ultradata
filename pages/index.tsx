@@ -6,6 +6,7 @@ import { MidSection } from '@/components/MidSection/MidSection';
 
 import type { GetStaticProps } from 'next';
 import { CommunitySection } from '@/components/CommunitySection/CommunitySection';
+import { SiteMap } from '@/components/SiteMap/SiteMap';
 
 type IndexPageProps = {};
 
@@ -18,6 +19,7 @@ const IndexPage: NextPage<IndexPageProps> = () => {
       <Tabs />
       <MidSection />
       <CommunitySection />
+      <SiteMap />
     </div>
   );
 };

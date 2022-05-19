@@ -17,7 +17,7 @@ export const CommunitySection: React.FC<CommunitySectionProps> = (props) => {
                 <div className="flex flex-col items-center justify-center space-y-2 ">
                   <div>Latest news at Macquarie</div>
 
-                  <div className="text-center text-sm font-light">
+                  <div className="text-center text-sm font-light  line-clamp-3">
                     Fusce non era ullamcorper, interdum augue sed, euismod
                     enuim.Fusce non era ullamcorper, interdum augue sed, euismod
                     enuim,Fusce non era ullamcorper, interdum augue sed, euismod
@@ -53,7 +53,7 @@ export const CommunitySection: React.FC<CommunitySectionProps> = (props) => {
               <div className="flex flex-col items-center justify-center space-y-2">
                 <div>Client Testimonial</div>
 
-                <div className="text-center text-sm font-light">
+                <div className="text-center text-sm font-light line-clamp-4">
                   Fusce non era ullamcorper, interdum augue sed, euismod
                   enuim.Fusce non era ullamcorper, interdum augue sed, euismod
                   enuim..
