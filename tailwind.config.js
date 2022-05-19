@@ -16,12 +16,6 @@ module.exports = {
     },
     extend: {
       colors: {
-        red: {
-          cc0000: '#cc0000',
-        },
-        green: {
-          177559: '#177559',
-        },
         purple: {
           '39007a': '#39007a',
         },
