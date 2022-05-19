@@ -13,7 +13,7 @@ export type NavigationProps = {
 
 export const Navigation: React.FC<NavigationProps> = ({
   containerClassName,
-  navClassName = 'border-red-cc0000',
+  navClassName = 'border-purple-39007a',
   isSideMenu,
 }) => {
   const redRowNavStyle =

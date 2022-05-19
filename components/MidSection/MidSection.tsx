@@ -11,7 +11,7 @@ export const MidSection: React.FC<MidSectionProps> = (props) => {
   return (
     <div className="px-4 md:px-0">
       <div className="container">
-        <div className="flex flex-col items-center justify-center rounded-lg border  border-red-cc0000 py-0 md:flex-row md:border">
+        <div className="border-purple-39007a flex flex-col items-center justify-center rounded-lg  border py-0 md:flex-row md:border">
           <InfoCard
             content={<div className="text-center">Promotional Campaign</div>}
             buttonText="Learn More"
@@ -19,7 +19,7 @@ export const MidSection: React.FC<MidSectionProps> = (props) => {
             containerClassName={`space-y-8 grow  ${infoContainerClass}`}
           />
           <div
-            className={`justify-center space-y-4  border-t border-red-cc0000 pb-0  md:max-w-xs  md:last:border-l md:last:border-t-0 ${infoContainerClass}`}
+            className={`border-purple-39007a justify-center  space-y-4 border-t pb-0  md:max-w-xs  md:last:border-l md:last:border-t-0 ${infoContainerClass}`}
           >
             <Carousel
               autoPlay

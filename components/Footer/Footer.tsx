@@ -10,7 +10,7 @@ export type FooterProps = {};
 export const Footer: React.FC<FooterProps> = (props) => {
   const today = new Date();
   return (
-    <footer className="w-full bg-red-cc0000 text-white">
+    <footer className="bg-purple-39007a w-full text-white">
       <div className="container space-y-4 rounded-bl-xl lg:flex lg:space-y-0 lg:space-x-8">
         <div className="flex-1 space-y-6 text-xs">
           <div className="space-y-6">
@@ -52,7 +52,7 @@ export const Footer: React.FC<FooterProps> = (props) => {
         <div className="container flex flex-wrap  justify-between">
           <Link href="/" className="flex items-center">
             <Image
-              src="/assets/images/logo.png"
+              src="/assets/images/logo_2.png"
               alt="Journify Logo"
               width="80"
               height="80"
@@ -60,7 +60,7 @@ export const Footer: React.FC<FooterProps> = (props) => {
             />
           </Link>
           <span className="flex items-center text-sm text-black ">
-            © {today.getFullYear()} Target. All rights reserved.
+            © {today.getFullYear()} Veshal Maniam. All rights reserved.
           </span>
         </div>
       </div>

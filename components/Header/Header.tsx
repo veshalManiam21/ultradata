@@ -36,7 +36,7 @@ export const Header: React.FC<HeaderProps> = (props) => {
         <div className="flex flex-row items-center justify-center">
           <Link href="/" className="flex items-center">
             <Image
-              src="/assets/images/logo.png"
+              src="/assets/images/logo_2.png"
               alt="Journify Logo"
               width="80"
               height="80"
@@ -47,7 +47,7 @@ export const Header: React.FC<HeaderProps> = (props) => {
       </div>
       <Navigation
         containerClassName="hidden w-full flex-1 flex-col lg:flex"
-        navClassName="flex-row justify-end items-center odd:bg-red-cc0000 odd:text-white"
+        navClassName="flex-row justify-end items-center odd:bg-purple-39007a odd:text-white"
       />
 
       <button

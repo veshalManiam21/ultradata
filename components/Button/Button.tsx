@@ -42,8 +42,8 @@ export const Button = ({
     customColorClassName
       ? customColorClassName
       : invertedColor
-      ? 'text-white rounded-3xl bg-red-cc0000 text-white hover:border-red-cc0000 hover:text-red-cc0000'
-      : 'border border-red-cc0000 text-red-cc0000 rounded-3xl hover:bg-red-cc0000 hover:text-white'
+      ? 'text-white rounded-3xl bg-purple-39007a text-white hover:border-purple-39007a hover:text-purple-39007a'
+      : 'border border-purple-39007a text-purple-39007a rounded-3xl hover:bg-purple-39007a hover:text-white'
   }`;
 
   return isWithHref(otherProps) ? (

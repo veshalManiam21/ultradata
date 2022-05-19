@@ -19,6 +19,12 @@ module.exports = {
         red: {
           cc0000: '#cc0000',
         },
+        green: {
+          177559: '#177559',
+        },
+        purple: {
+          '39007a': '#39007a',
+        },
       },
       display: ['group-hover'],
       fontSize: {
@@ -29,9 +35,6 @@ module.exports = {
       },
       minHeight: {
         xs: '280px',
-      },
-      screens: {
-        xs: '375px',
       },
     },
   },

@@ -53,6 +53,10 @@ export const NAV_FIRST_ROW: RowProp[] = [
 export const NAV_SECOND_ROW: RowProp[] = [
   {
     link: '#',
+    name: 'About Company',
+  },
+  {
+    link: '#',
     name: 'Loans',
   },
   {

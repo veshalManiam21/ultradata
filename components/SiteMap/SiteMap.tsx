@@ -37,13 +37,15 @@ export const SiteMap: React.FC<SiteMapProps> = (props) => {
         <div className="flex flex-col justify-between space-y-4 md:flex-row md:space-y-0 ">
           {SITE_MAPS.map((siteMap, idx) => (
             <div key={idx} className="space-y-2">
-              <div className="uppercase text-red-cc0000">{siteMap.title}</div>
+              <div className="text-purple-39007a uppercase">
+                {siteMap.title}
+              </div>
               <ul className="flex flex-col space-y-2">
                 {siteMap.children.map((link, idxC) => (
                   <li key={idxC}>
                     <Link
                       href={link.link}
-                      className="text-sm font-light text-red-600 hover:underline"
+                      className="text-purple-39007a text-sm font-light hover:underline"
                     >
                       {link.name}
                     </Link>

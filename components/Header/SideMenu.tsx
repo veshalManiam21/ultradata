@@ -5,7 +5,7 @@ import { useModal } from '@/providers/ModalProvider';
 import { useRouter } from 'next/router';
 
 import IconClose from '@/assets/svg/icon_close.svg';
-import journifyLogo from '@/public/assets/images/logo.png';
+import journifyLogo from '@/public/assets/images/logo_2.png';
 import { Navigation } from '../Navigation/Navigation';
 
 type SideMenuProps = {};
@@ -31,7 +31,7 @@ export const SideMenu: React.FC<SideMenuProps> = (props) => {
           <nav className="container flex w-full flex-col items-start justify-center py-0 text-sm font-semibold">
             <Navigation
               containerClassName="flex-col flex w-full "
-              navClassName="flex-col border-white odd:rounded-tl-xl odd:rounded-br-xl odd:bg-red-cc0000 odd:text-white "
+              navClassName="flex-col border-white odd:rounded-tl-xl odd:rounded-br-xl odd:bg-purple-39007a odd:text-white "
               isSideMenu
             />
           </nav>

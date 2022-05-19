@@ -20,7 +20,7 @@ export const ContactUsForm: React.FC<ContactUsFormProps> = (props) => {
       />
       <textarea className={inputClass} name="comments" placeholder="Comments" />
 
-      <button className="rounded-md bg-white px-4 py-2 text-red-cc0000">
+      <button className="text-purple-39007a rounded-md bg-white px-4 py-2">
         Submit
       </button>
     </form>

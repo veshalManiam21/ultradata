@@ -8,7 +8,7 @@ export const SearchBar: React.FC<SearchBarProps> = (props) => {
   return (
     <InputText
       placeholder="Search"
-      className="rounded-md border border-red-cc0000 placeholder:text-red-cc0000"
+      className="border-purple-39007a placeholder:text-purple-39007a rounded-md border"
       InputSideIcon={IconSearch}
       inputSideContentDirection="right"
     />

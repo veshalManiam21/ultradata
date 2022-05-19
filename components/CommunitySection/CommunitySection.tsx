@@ -30,7 +30,7 @@ export const CommunitySection: React.FC<CommunitySectionProps> = (props) => {
             />
           </div>
           <div className="flex flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-2">
-            <div className="flex min-h-xs flex-1 grow items-center justify-center border border-black bg-red-cc0000 py-16 px-4 text-white md:min-h-fit">
+            <div className="bg-purple-39007a flex min-h-xs flex-1 grow items-center justify-center border border-black py-16 px-4 text-white md:min-h-fit">
               <div>Social Feed</div>
             </div>
             <div className="flex-1  border border-black py-16 px-4">
