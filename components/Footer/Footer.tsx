@@ -10,7 +10,7 @@ export type FooterProps = {};
 export const Footer: React.FC<FooterProps> = (props) => {
   const today = new Date();
   return (
-    <footer className="w-full bg-purple-39007a text-white">
+    <footer className="w-full bg-purple-39007a pb-20 text-white xl:pb-0">
       <div className="container space-y-4 rounded-bl-xl py-10 lg:flex lg:space-y-0 lg:space-x-8">
         <div className="flex-1 space-y-6 text-xs">
           <div className="space-y-6">
