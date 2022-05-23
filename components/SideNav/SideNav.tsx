@@ -7,7 +7,7 @@ export type SideNavProps = {};
 export const SideNav: React.FC<SideNavProps> = (props) => {
   return (
     <div className="fixed bottom-0 z-30 flex h-auto w-full flex-row justify-center bg-purple-39007a font-semibold xl:top-0 xl:h-full xl:w-auto xl:flex-col">
-      <div className="flex  flex-row text-white  lg:overflow-x-scroll xl:flex-col xl:items-center xl:justify-between xl:space-y-8">
+      <div className="flex  flex-row overflow-x-scroll text-white xl:flex-col xl:items-center xl:justify-between xl:space-y-8 xl:overflow-x-auto">
         {SIDE_NAV.map((nav, idx) => (
           <Link
             key={idx}
